@@ -9,8 +9,6 @@ RUN apt-get update && \
 # Set the application directory
 WORKDIR /usr/local/app
 
-# Install our requirements.txt
-COPY requirements.txt ./requirements.txt
 
 
 # Copy our code from the current folder to the working directory inside the container
